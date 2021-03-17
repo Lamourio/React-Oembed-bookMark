@@ -5,7 +5,7 @@ export function SearchPreview({ preview, result, onSave, onDiscard }) {
     if (success)
         return (
             
-            <Card style={{ width: '18rem' }}>
+            <Card >
                 <Card.Img variant="top" src={msg.thumbnail_url} />
                 <Card.Body>
                     <Card.Title>Preview</Card.Title>

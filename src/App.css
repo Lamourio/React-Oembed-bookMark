@@ -46,3 +46,8 @@ td {
   position: relative;
   margin: 0 auto;
 }
+
+#previewSearch .card-body {
+  display : flex ;
+  justify-content: space-around;
+}
